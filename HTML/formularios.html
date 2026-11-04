@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <h2>Texto</h2>
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre">
+        </div>
+
+        <h2>Radio button</h2>
+        <div>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <h2>Selector de opciones</h2>
+        <div>
+            <label for="selector">Marca de coche: </label>
+            <select name="" id="selector">
+                <option value="coche-1">Volvo</option>
+                <option value="coche-2">Mercedes</option>
+                <option value="coche-3">BMW</option>
+                <option value="coche-4">Audi</option>
+            </select>
+        </div>
+
+        <h2>Area de texto</h2>
+        <div>
+            <textarea name="" id="" placeholder="Texto inicial dentro del campo" rows="10"></textarea>
+        </div>
+
+        <h2>Contraseña</h2>
+        <div>
+            <label for="contraseña">Keyworw: </label>
+            <input type="password" id="contraseña">
+        </div>
+
+        <h2>Checkbox</h2>
+        <p>Elige cual es tu vehiculo</p>
+        <div>
+            <input type="checkbox" id="vehiculo-1">
+            <label for="vehiculo-1">Tengo una bici</label>
+        </div>
+        <div>
+            <input type="checkbox" id="vehiculo-2">
+            <label for="vehiculo-2">Tengo un coche</label>
+        </div>
+        <div>
+            <input type="checkbox" id="vehiculo-3">
+            <label for="vehiculo-3">Tengo una moto</label>
+        </div>
+
+        <h2>Subida de archivos</h2>
+        <div>
+            <label for="archivos">Selecciona los archivos a subir: </label>
+            <input type="file" id="archivos">
+        </div>
+
+        <button>Enviar el formulario</button>
+    </form>
+</body>
+</html>
