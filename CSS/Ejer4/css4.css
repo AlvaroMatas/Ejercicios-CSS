@@ -54,7 +54,7 @@ img { border: none; }
 
   #menu{
     border: none;
-    border-bottom: 2px #004C99 solid;
+    border-bottom: 2px #85b2df solid;
     padding: 0.5em;
     margin-bottom: 0.5em;
   }
@@ -72,4 +72,27 @@ img { border: none; }
     border: orange dotted 2px;
     padding: 0.5em;
     margin-top: 10px;
+  }
+
+  #contenido{
+    border: none;
+  }
+
+  #principal{
+    border: none !important;
+    padding: 0.5em;
+    width: 500px !important;
+  }
+
+  #secundario{
+    padding: 0.5em;
+    border: orange solid 1px !important;
+  }
+
+  img{
+    padding: 10px;
+  }
+
+  .articulo{
+    margin-bottom: 20px;
   }
