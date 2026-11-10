@@ -49,12 +49,27 @@ img { border: none; }
 
   #cabecera{
     border: none;
+    padding: 1em;
   }
 
   #menu{
     border: none;
+    border-bottom: 2px #004C99 solid;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
   }
 
   #noticias{
-    border: 1px solid rgb(167, 167, 167);
+    border: 1px solid #C5C5C5;
+    padding: 0.5em;
+  }
+
+  #lateral{
+    border: none;
+  }
+
+  #publicidad{
+    border: orange dotted 2px;
+    padding: 0.5em;
+    margin-top: 10px;
   }
