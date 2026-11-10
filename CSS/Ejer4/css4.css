@@ -69,9 +69,9 @@ img { border: none; }
   }
 
   #publicidad{
-    border: orange dotted 2px;
+    border: #CC6600 dotted 2px;
     padding: 0.5em;
-    margin-top: 10px;
+    margin-top: 1em;
   }
 
   #contenido{
@@ -86,13 +86,23 @@ img { border: none; }
 
   #secundario{
     padding: 0.5em;
-    border: orange solid 1px !important;
+    border: #CC6600 solid 1px !important;
   }
 
   img{
-    padding: 10px;
+    margin: 0.5em;
   }
 
   .articulo{
-    margin-bottom: 20px;
+    margin-bottom: 1em;
+  }
+
+  #pie{
+    padding: 0.5em 0;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    border-bottom: #C5C5C5 solid 1px;
+    border-top: #C5C5C5 solid 1px;
   }
